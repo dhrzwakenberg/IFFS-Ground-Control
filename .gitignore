@@ -1,0 +1,48 @@
+# Python environments and bytecode
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Test, lint, coverage, and build output
+.pytest_cache/
+.pytest-tmp/
+.ruff_cache/
+.coverage
+.coverage.*
+htmlcov/
+build/
+dist/
+*.egg-info/
+
+# Temporary and editor files
+*.tmp
+*.temp
+*.bak
+*.swp
+*.swo
+*~
+~$*
+.DS_Store
+Thumbs.db
+
+# Generated telemetry, logs, and local hardware dumps
+*.log
+*.tlog
+*.tlog.raw
+*.parm
+
+# Local application state
+config.json
+
+# Local secrets and credentials
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+*.pfx
+credentials*.json
+secrets*.json

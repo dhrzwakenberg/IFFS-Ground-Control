@@ -1,0 +1,29 @@
+{
+  "connection": "udpin:127.0.0.1:14551",
+  "baud": 57600,
+  "heartbeat_timeout_seconds": 3.0,
+  "source_system": 252,
+  "source_component": 190,
+  "water_duration_seconds": 10.0,
+  "air_duration_seconds": 10.0,
+  "shoot_duration_seconds": 1.0,
+  "shoot_duration_min_seconds": 0.1,
+  "shoot_duration_max_seconds": 5.0,
+  "reload_delay_seconds": 1.0,
+  "rc_channels": {
+    "water": 11,
+    "air": 12,
+    "fill_all": 13,
+    "shoot": 14,
+    "stop_all": 15
+  },
+  "rc_low_threshold": 1250,
+  "rc_high_threshold": 1750,
+  "rc_timeout_seconds": 1.0,
+  "rc_request_rate_hz": 0.0,
+  "actuators": {
+    "water": {"slot": 1, "active": 1.0, "inactive": -1.0},
+    "air": {"slot": 2, "active": 1.0, "inactive": -1.0},
+    "shoot": {"slot": 3, "active": 1.0, "inactive": -1.0}
+  }
+}
